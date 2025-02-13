@@ -56,7 +56,7 @@ function MainDiv() {
                                     <h2 className='w-[72px] h-[21px] font-inter font-[500] text-[12px] leading-[21px] tracking-[-0.002em] text-center text-[rgba(5,5,82,0.6)]'>Customer ID</h2>
                                 </div>
                                 <div className='w-[317px]  h-[36px] rounded-[6px] border-[1px] py-[5.5px] px-[12px] flex items-center justify-center gap-[12px] bg-white border-[rgba(217,219,221,1)]'>
-                                    <input value={customer} onChange={(e)=>setCustomer(e.target.value)} type="text" className='w-[293px] h-[21px] text-[14px] outline-none' />
+                                    <input value={customer} onChange={(e)=>setCustomer(e.target.value)} type="text" className='w-[293px] h-[21px] text-[14px] font-inter font-[500] leading-[21px] tracking-[-0.028em] text-[rgba(5,5,82,0.8)] outline-none' />
                                 </div>
                             </div>
                             <div className='w-[503px] h-[36px] flex items-center justify-center gap-[16px]'>
@@ -64,7 +64,7 @@ function MainDiv() {
                                     <h2 className='w-[71px] h-[21px] font-inter font-[500] text-[12px] leading-[21px] tracking-[-0.002em] text-center text-[rgba(5,5,82,0.6)]'>Redirect URI</h2>
                                 </div>
                                 <div className='w-[317px]  h-[36px] rounded-[6px] border-[1px] py-[5.5px] px-[12px] flex items-center justify-center gap-[12px] bg-white border-[rgba(217,219,221,1)]'>
-                                    <input value={redirect} onChange={(e)=>setRedirect(e.target.value)} type="text" className='w-[293px] h-[21px] text-[14px] outline-none' />
+                                    <input value={redirect} onChange={(e)=>setRedirect(e.target.value)} type="text" className='w-[293px] h-[21px] text-[14px] font-inter font-[500] leading-[21px] tracking-[-0.028em] text-[rgba(5,5,82,0.8)] outline-none' />
                                 </div>
                             </div>
                             <div className='w-[503px] h-[36px] flex items-center justify-center gap-[16px] '>
@@ -72,7 +72,7 @@ function MainDiv() {
                                     <h2 className='w-[81px] h-[21px] font-inter font-[500] text-[12px] leading-[21px] tracking-[-0.002em] text-center text-[rgba(5,5,82,0.6)]'>Policy Version</h2>
                                 </div>
                                 <div className='w-[317px]  h-[36px] rounded-[6px] border-[1px] py-[5.5px] px-[12px] flex items-center justify-center gap-[12px] bg-white border-[rgba(217,219,221,1)]'>
-                                    <input value={policy} onChange={(e)=>setPolicy(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] outline-none' />
+                                    <input value={policy} onChange={(e)=>setPolicy(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] font-inter font-[500] leading-[21px] tracking-[-0.028em] text-[rgba(5,5,82,0.8)] outline-none' />
                                 </div>
                             </div>
                             <div className='w-[503px] h-[36px] flex items-center justify-center gap-[16px] '>
@@ -80,7 +80,7 @@ function MainDiv() {
                                     <h2 className='w-[48px] h-[21px] font-inter font-[500] text-[12px] leading-[21px] tracking-[-0.002em] text-center text-[rgba(5,5,82,0.6)]'>Purpose</h2>
                                 </div>
                                 <div className='w-[317px]  h-[36px] rounded-[6px] border-[1px] py-[5.5px] px-[12px] flex items-center justify-center gap-[12px] bg-white border-[rgba(217,219,221,1)]'>
-                                    <input value={purpose} onChange={(e)=>setPurpose(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] outline-none' />
+                                    <input value={purpose} onChange={(e)=>setPurpose(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] font-inter font-[500] leading-[21px] tracking-[-0.028em] text-[rgba(5,5,82,0.8)] outline-none' />
                                 </div>
                             </div>
                             <div className='w-[503px] h-[36px] flex items-center justify-center gap-[16px] '>
@@ -88,7 +88,7 @@ function MainDiv() {
                                     <h2 className='w-[37px] h-[21px] font-inter font-[500] text-[12px] leading-[21px] tracking-[-0.002em] text-center text-[rgba(5,5,82,0.6)]'>Scope</h2>
                                 </div>
                                 <div className='w-[317px]  h-[36px] rounded-[6px] border-[1px] py-[5.5px] px-[12px] flex items-center justify-center gap-[12px] bg-white border-[rgba(217,219,221,1)]'>
-                                    <input value={scope} onChange={(e)=>setScope(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] outline-none' />
+                                    <input value={scope} onChange={(e)=>setScope(e.target.value)}  type="text" className='w-[293px] h-[21px] text-[14px] font-inter font-[500] leading-[21px] tracking-[-0.028em] text-[rgba(5,5,82,0.8)] outline-none' />
                                 </div>
                             </div>
 
