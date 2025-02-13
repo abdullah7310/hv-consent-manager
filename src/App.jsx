@@ -12,7 +12,6 @@ function App() {
     <div className='flex'>
       <Navbar/>
       <SideNavbar/>
-      {/* <MainDiv/> */}
       <Routes>
         <Route path='/' element={<MainDiv/>}/>
         <Route path='/consent' element={<Consent/>}/>

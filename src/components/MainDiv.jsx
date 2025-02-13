@@ -16,33 +16,7 @@ function MainDiv() {
         allInputFills= true;
     }
 
-    const handleRequestConsent = async () => {
-        const requestData = {
-            transactionId: "sample-consent-txn-id-1",
-            workflowId: "b9861928-7898-4343-9ecc-d03682932b5f",
-            userId: "sample-user-id-1",
-            consentExpiryInDays: 30
-        };
-    
-        try {
-            const response = await fetch("http://13.201.216.164/v1/request_consent", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(requestData)
-            });
-    
-            const data = await response.json();  // API ka response JSON me convert karo
-            console.log("Consent Response:", data);  // Response ko console me print karo
-            alert(data.message);  // User ko confirmation dikhane ke liye alert
-    
-        } catch (error) {
-            console.error("Error in consent request:", error);
-            alert("Something went wrong! Please try again.");
-        }
-    };
-
+   
     return (
         <div className='w-[1156px] relative h-[822px]'>
             <div className='w-[567px] h-[438px] absolute top-[120px] left-[294px] flex gap-[24px] flex-col'>
